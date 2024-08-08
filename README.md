@@ -25,6 +25,8 @@ buf generate
 
 3. Run the server
 
+> Before running, ensure that you have set the environment variables "GRPC_SERVER_ENDPOINT" and "HTTP_SERVER_PORT"
+
 ```bash
 go run cmd/dex-http-server/main.go
 ```
